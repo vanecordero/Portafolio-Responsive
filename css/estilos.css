@@ -1,0 +1,47 @@
+/*-----------------------------
+SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP
+------------------------------*/
+.bg-primary {
+  background-color: #271B79 !important; }
+
+.text-primary {
+  color: #271B79 !important; }
+
+.btn-primary {
+  background-color: #271B79 !important;
+  border-color: #0c0826 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #1a124f !important; }
+
+.btn-primary:active {
+  background-color: #0c0826 !important;
+  border-color: black !important; }
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(39, 27, 121, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(39, 27, 121, 0.5) !important; }
+
+/*-----------------------------
+ESTILOS DEL DISENO
+------------------------------*/
+html {
+  font-size: 13px; }
+
+.card:hover {
+  -webkit-box-shadow: 0 0 10px #0c0c0c3c;
+          box-shadow: 0 0 10px #0c0c0c3c; }
+
+body {
+  color: #44484a;
+  font-family: 'Quicksand', sans-serif; }
+
+/*-----------------------------
+SHOW MEDIDAS JQUERY
+------------------------------*/
+@media (min-width: 768px) {
+  html {
+    font-size: 15px; } }
+
+/*# sourceMappingURL=estilos.css.map */

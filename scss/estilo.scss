@@ -1,0 +1,58 @@
+//----------------------------------
+//			PATRON DE COLORES
+//----------------------------------
+$texto:#44484a;
+$secundario:orange;
+$principal:#271B79;
+/*-----------------------------
+SOBREESCRIBIENDO LOS ESTILOS DE BOOTSTRAP
+------------------------------*/
+.bg-primary {
+    background-color: $principal!important;
+}
+.text-primary {
+    color: $principal!important;
+}
+.btn-primary {
+    background-color: $principal!important;
+    border-color: darken($principal,20%) !important;
+}
+
+//curso encima y enfocado
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: darken($principal,10%)!important;
+}
+.btn-primary:active {
+    background-color: darken($principal,20%)!important;
+    border-color: darken($principal,30%) !important;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba($principal, .5)!important;
+}
+
+/*-----------------------------
+ESTILOS DEL DISENO
+------------------------------*/
+
+html{
+	font-size: 13px;
+}
+.card:hover{
+	box-shadow: 0 0 10px #0c0c0c3c;
+}
+body{
+	color: $texto;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/*-----------------------------
+SHOW MEDIDAS JQUERY
+------------------------------*/
+@media(min-width: 768px){
+	html{
+		font-size: 15px;
+	}
+}
